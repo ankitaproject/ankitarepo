@@ -9,6 +9,6 @@ public static void main(String[] args) {
 	WebDriver driver = new ChromeDriver();
 	driver.manage().window().maximize();
 	driver.manage().deleteAllCookies();
-	driver.get("https://www.google.co.in/");
+	driver.get("https://www.google.co.in/");//first pull
 }
 }
